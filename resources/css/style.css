@@ -1,0 +1,78 @@
+body {
+    //background-color: gray;
+    font-family: calibri;
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav ul li {
+    padding-right: 15px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+
+nav .menu-links {
+    text-decoration: none;
+    color: black;
+}
+
+nav .menu-links:hover {
+    font-weight: bolder;
+}
+
+.about-me {
+    display: flex;
+    padding: 30px 0;
+}
+
+.about-me h2 {
+    margin: 0;
+}
+
+.about-me article{
+    width: 60%;
+    word-spacing: 3px;
+    letter-spacing: 0.5px;
+    line-height: 1.5rem;
+}
+
+.about-me figure {
+    width: 40%;
+    display: flex;
+    justify-content: right;
+    margin: 0;
+    padding: 0;
+}
+
+.profile-image {
+    width: 250px;
+}
+
+.my-projects {
+    padding: 0 0 30px;
+}
+
+.my-skills ul {
+    list-style-type: disclosure-closed;
+    margin: 0;
+    padding: 0px 18px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.toggle-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
